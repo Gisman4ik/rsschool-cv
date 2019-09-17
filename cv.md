@@ -14,7 +14,7 @@
            - some experience with HTML/CSS/JS
            - confident English  
 
-5. Code example: 
+5. Code example:  
 ``` 
 function Calculator() {
 
@@ -45,5 +45,5 @@ alert( "Mul=" + calculator.mul() );
               RSShcool  
               Codewars  
               learn.javascript.ru  
-              
+
 8. Confident English (~B2). Studying eng in school, university. Completed courses of Cambridge Summer Super Camp in Lithuania and EC School in New York.
