@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<link rel="stylesheet" href="./style.css">
+    <link href="http://fonts.googleapis.com/css?family=Rokkitt:400,700|Lato:400,300" rel="stylesheet">
+		<title>CV HTML</title>
+	</head>
+	<body>
+		<div id="cv">
+      <header>
+        <figure class="my-photo">
+          <img src="./assets/MyPhoto.jpg" alt="MyPhoto" width="280">
+          <figcaption>The most beautiful photo:)</figcaption>
+        </figure>
+        <section class="personality">
+          <p class="name"> Artur Radziukhin</p>
+          <p class="contact">
+            <span class="gmail">Gmail</span>: sftawitkakpro@gmail.com<br>
+            <span class="telegram">telegram</span>: Gisman4ik<br>
+            <a href="https://github.com/Gisman4ik" target="_blink">[GitHub]</a></p>
+        </section>
+			</header>
+			<nav>
+        <p class="cv-nav">Summary</pcl>
+        <p class="cv-nav">Skills</p>
+        <p class="cv-nav">Code example</p>
+        <p class="cv-nav">Experience</p>
+        <p class="cv-nav">Education</p>
+        <p class="cv-nav">English</p>
+			</nav>
+			<main>
+        <article class="summary">
+          <p>Student of BSMU, faculty of General Medicine, who is interested in learning programming.
+            Goal: to complete RSSchool courses, begin the career of Junior JS Developer and in 5 years become a team leader.
+            Have a scanty, but rapidly progressing experience in HTML / CSS / JS. Have good analytical skills, learn quickly and easily. Work great in a team. Ready to complete all necessary tasks.</p>
+        </article>
+        <article class="skills">
+          - understanding the basics of programming<br>
+          - some experience with HTML/CSS/JS<br>
+          - confident English  
+        </article>
+        <article class="code">
+          <pre>function Calculator() {
+
+            this.read = function() {
+              this.a = +prompt('a?', 0);
+              this.b = +prompt('b?', 0);
+            };
+          
+            this.sum = function() {
+              return this.a + this.b;
+            };
+          
+            this.mul = function() {
+              return this.a * this.b;
+            };
+          }
+          
+          let calculator = new Calculator();
+          calculator.read();
+          
+          alert( "Sum=" + calculator.sum() );
+          alert( "Mul=" + calculator.mul() );</pre>
+        </article>
+        <article class="experience">
+          <p>some educational coding tests and projects.</p>
+        </article>
+        <article class="educational">
+          <p>codecacademy.com <br>  
+            htmlacademy.ru <br> 
+            RSShcool <br> 
+            Codewars <br> 
+            learn.javascript.ru</p>
+        </article>
+        <article class="english">
+          <p>Confident English (~B2). Studying eng in school, university. Completed courses of Cambridge Summer Super Camp in Lithuania and EC School in New York.</p>
+        </article>
+      </main>
+		</div>
+	</body>
+</html>
