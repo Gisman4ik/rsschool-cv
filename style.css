@@ -1,0 +1,106 @@
+body {
+    background-color: rgb(255, 255, 255);
+  }
+  
+  a {
+    text-decoration: none;
+    color: blue;
+  }
+  
+  p {
+    margin: 10px;
+  }
+  
+  #cv {
+    display: grid;
+    grid-template: 25% 85% / 1fr 1fr 1fr ;
+    grid-template-areas: 
+    "header header header"
+    "nav main main";
+    width: 1024px;
+    margin: 150px auto 0 auto; 
+    justify-items: center;
+    font-family: "Rokkitt", "Times New Roman", serif;
+    background-color: #ededed;  
+    border: inset 20px rgb(150, 222, 255);        
+  }
+  
+  .cv-nav {
+    font-weight: 900;
+  }
+  
+  figcaption {
+    text-align: center;
+  }
+  
+  header {
+    grid-area: header;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    border-bottom: solid 4px rgb(255, 255, 255);
+  }
+  
+  .my-photo {
+    justify-self: center;
+    grid-area: 1/1/1/1;
+  }
+  
+  .personality {
+    grid-area: 1/3/1/3;
+    font-size: 25px;
+  }
+  
+  .name, 
+  .gmail,
+  .telegram {
+    font-weight: 900;
+  }
+  
+  main {
+    grid-area: main;
+    display: grid;
+    grid-template-rows: 120px 120px 450px 100px 150px 100px;
+    font-size: 17px;
+    border-left: solid 2px rgb(255, 255, 255);
+  }
+  
+  .summary{
+    margin-left: 20px;
+    grid-area: 1/1/1/1;
+  }
+  
+  .skills {
+    grid-area: 2/1/2/1;
+    margin-left: 20px;
+  }
+  
+  .code {
+    grid-area: 3/1/3/1;
+    margin-left: 20px;
+  }
+  
+  .experience {
+    grid-area: 4/1/4/1;
+    margin-left: 20px;
+  }
+  
+  .educational {
+    grid-area: 5/1/5/1;
+    margin-left: 20px;
+  }
+  
+  .english {
+    grid-area: 6/1/6/1;
+    margin-left: 20px;
+  }
+  
+  nav {
+    grid-area: nav;
+    display: grid;
+    grid-template-rows: 120px 120px 450px 100px 150px 100px ;
+    justify-items: center; 
+    width: 100%;
+    font-size: 25px;
+    border-right: solid 2px rgb(255, 255, 255);
+  }
